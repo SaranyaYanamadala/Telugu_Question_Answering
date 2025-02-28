@@ -46,7 +46,7 @@ translator = Translator()  # Initialize translator
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv('telugu_dataset.csv')  # Replace with your dataset file name
+        df = pd.read_csv('telugu_QA_dataset.csv')  # Replace with your dataset file name
         df['context'] = df.apply(
             lambda row: f"Question: {row['question']}\nAnswer: {row['answer_text']}", 
             axis=1
