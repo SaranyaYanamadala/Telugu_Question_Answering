@@ -7,7 +7,7 @@ import numpy as np
 from googletrans import Translator  # For translation
 
 # Custom CSS for styling
-st.markdown("""
+'''st.markdown("""
 <style>
     .stApp {
         background: #f8f5e6;
@@ -32,7 +32,7 @@ st.markdown("""
         background: #ffffff;
     }
 </style>
-""", unsafe_allow_html=True)
+""", unsafe_allow_html=True)'''
 
 # Configure Google Gemini
 genai.configure(api_key="AIzaSyA1G168bJfFFdzBKv8Z4vmyWLP9mAtOZIg")  # Replace with your Gemini API key
