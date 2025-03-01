@@ -10,4 +10,4 @@
   </ul>
 </html>
 
-Check out the chatbot live: [Simple Chatbot]((https://teluguquestionanswering-z6vpybbbvtae33a6comrc9.streamlit.app/))
+Check out the chatbot live: [Simple Chatbot](https://teluguquestionanswering-z6vpybbbvtae33a6comrc9.streamlit.app/)
